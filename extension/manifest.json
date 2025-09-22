@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "FireOpenaiFrontendEngineer",
+  "version": "0.1",
+  "description": "OpenAIの使いにくいフロントエンド機能を無効にする拡張機能",
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
